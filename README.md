@@ -1,10 +1,31 @@
 # Imri Test
 
 ## Step
+0. Dictionary
 1. Setup
 2. Launch
 3. Enjoy
 
+
+## 0- Dictionary
+#### How to interpret data
+```json
+{
+    "id": "Matricule de l'employe",
+    "lastname": "Nom de l'employe",
+    "firstname": "Prenom de l'employe",
+    "salary": "Salaire totale",
+    "tasks": [
+        {
+            "operation_id": "Code de l'operation",
+            "name": "Nom de l'operation",
+            "hourly": "coût horaire",
+            "total_salary": "Montant total a paye pour ces horaires",
+            "total_hours": "Nombre total d'heure"
+        }
+    ]
+}
+```
 
 ## 1- Setup
 ### Step 1 :
