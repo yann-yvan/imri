@@ -169,15 +169,16 @@ COMMIT;
 
 ```
 
-### Step 3: Replace db setting in Models > BaseModel
+### Step 3: Replace db setting in 
+##Models/BaseModel.php
 
 ##### Or create a file name .env and paste the above text
 Replace theses value with your database credential
 
 
-```dotenv
-  $DB_USERNAME=username
-  $DB_PASSWORD=password
+```php
+  const DB_USERNAME = "root";
+  const DB_PASSWORD = "root";
 ```
 
 ## 2- Launch app
