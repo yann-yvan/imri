@@ -70,6 +70,6 @@ class ListingController extends Controller
         //$json = preg_replace_callback('/("(u[a-zA-Z0-9]{4}|\\[^u]|[^\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/', "format", $json);
 
 
-        return "<h3>Salaire à payer pour le mois <u style='color: green'>$date</u> pour le compte de <u style='color: green'>$name</u> </h3><br/><pre>" . $json . '</pre><br><br><a href="http://localhost:8000">Retour</a>';
+        return "<h3> <u style='color: red'>".date("d-M-Y")."</u> : Salaire à payer pour le mois <u style='color: green'>$date</u> pour le compte de <u style='color: green'>$name</u> </h3><br/><pre>" . $json . '</pre><br><br><a href="http://localhost:8000">Retour</a>';
     }
 }
